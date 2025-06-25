@@ -33,7 +33,7 @@ pipeline {
 			success {
 				echo 'Python application Docker image built successfully.'
 			}
-			faliure{
+			failure{
 				echo 'Docker build or run failed.'
 			}
 		}
